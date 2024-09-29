@@ -32,7 +32,13 @@ struct ContentView: View {
                     }.font(.caption)
                 }
                 Text("Lorem ipsum...")
-                Image(systemName: "binoculars.fill")
+                Spacer()
+                HStack{
+                    Image(systemName: "tree.fill")
+                    Image(systemName: "bird.fill")
+                    Image(systemName: "car.fill")
+                    Image(systemName: "dog.fill")
+                }
             }.padding(25)
         }
     }
